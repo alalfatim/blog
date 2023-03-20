@@ -1,0 +1,267 @@
+@media screen and (max-width: 680px){
+    .menu{
+      margin-left: 0px;
+      margin-bottom: 20px ;}
+      .demipage{
+          padding: 60px;
+          padding-top: -10px;
+      }
+      
+  }
+  
+ 
+
+.NOMDESTITRES{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: oblique;
+  font-size: 10ch;
+  text-align: center;
+  color: #fff; 
+  padding-top: -30%;
+}
+header .NOMDESTITRES h1{
+  font-family: 'Parisienne',cursive;
+
+}
+  .logonom{
+    color: white;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 50px;
+   
+     
+  }
+  .logonom a:hover{
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   text-decoration: none;
+  }
+  .logonom a{
+   color: #fff;
+   text-decoration: none;
+  }
+  
+  
+  #photo1index{
+    background: url(./imgacceuil2.jpg) center center no-repeat;
+    
+    height:20cm;
+  
+    
+  }
+  .trait{
+    height: 70px;
+    width: 10px;
+    background-color: black;
+    margin-left: 25%;
+    margin-top: -9.5%
+    
+  }
+
+  .trait1{
+    height: 70px;
+    width: 10px;
+    background-color: rgb(207, 17, 17);
+    margin-left: 74.5%;
+    margin-top: -4.8%
+  }
+
+
+  nav {
+      text-align: center;
+    }
+    .menu {
+      display: inline-block;
+      margin-top:7%;
+      margin-left:7%;
+        
+    }
+    
+    .menu > li {
+      float: left;
+      color: transparent;
+      width:250px;
+      height: 40px;
+      line-height: 40px;
+      background-color: rgba(255, 255, 255, 0.37);
+      cursor: pointer;
+      font-size: 17px;
+      border-radius: 10px;
+    }
+    
+    .sub-menu {
+      transform: scale(0);
+      transform-origin: top center;
+      transition: all 300ms ease-in-out;
+     
+    }
+    .sub-menu li {
+      font-size: 14px;
+      background-color:rgba(255, 255, 255, 0.37);
+      border-radius: 20px;
+      margin: auto;
+      border-bottom: 1px solid black;
+      transform: scale(0);
+      transform-origin: top center;
+      transition: all 300ms ease-in-out;
+      
+    }
+    .sub-menu li:last-child {
+      
+      border-bottom: 0;
+     
+    }
+    .sub-menu li:hover {
+      background:  rgba(255, 255, 255, 0.534);
+      
+    }
+    .menu > li:hover .sub-menu li {
+      transform: scale(1);
+    }
+    .menu > li:hover .sub-menu {
+      transform: scale(1);
+      }
+  
+      .couleurdeslien a:hover {
+          cursor: pointer;
+          color: antiquewhite;
+      }
+      .couleurdeslien{
+          text-decoration: none;
+          color: black;
+          margin: 40%;
+      }
+      
+  
+  
+  
+  body{
+    background-color: rgb(228, 207, 151);
+  }
+  
+  .image11 {
+    cursor: pointer;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    width: 450px;
+    text-align: center;
+    
+    margin-left: 1%;
+  }
+  .image11 .imgsacceuil{
+    background-color: rgb(211, 186, 141);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    color: #fff;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    opacity: 0;
+    width: 400px;
+    height: 200px;
+    padding: 140px 40px;
+    margin-top: auto;
+  
+  }
+  
+  .image11:hover .imgsacceuil{
+    opacity: 0.8;
+   
+  
+  }
+  .image11 .text {
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    -o-transition: all 300ms ease-out;
+    -ms-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    transform: translateY(30px);
+    -webkit-transform: translateY(30px);
+    
+  }
+  .image11 .titrepage{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    opacity: 0;
+    transition-delay: 0.2s;
+    transition-duration: 0.3s;
+    
+  }
+  .image11:hover .titrepage,
+  .image11:focus .titrepage {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    
+  }
+  
+   .text{
+    cursor: pointer;
+    color: #fff;
+  
+  }
+  #fleximageacceuil{
+     
+      display: flex; 
+  }
+  #fleximageacceuil1{
+    display: flex;
+    margin-left: 15%;
+   
+  }
+  
+  
+  .pieddepage{
+    background-color: antiquewhite;
+    margin-left: auto;
+    height: 300px;
+    
+  }
+  
+
+  
+.logonom{
+  color: black;
+  margin-top: 5%;
+  margin-left: 80%;
+  font-size: 25px;
+  padding-top: 7%;
+ 
+}
+.logonom a:hover{
+ color: black;
+ border: none;
+ cursor: pointer;
+ text-decoration: none;
+}
+.logonom a{
+ color: goldenrod;
+ text-decoration: none;
+}
+
+.contact{
+  margin-top: -12%;
+  margin-left: 2%;
+}
+button{
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
+button a{
+  color: white;
+  cursor: pointer
+  
+}
+button a:hover{
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
