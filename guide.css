@@ -122,7 +122,7 @@
  /* IMAGE DE COVER */
  .coverphotozanzibar{	
      height:160px;
-   background:url('./zanzibar-accueil.jpg') ;
+   background:url('https://www.les-covoyageurs.com/ressources/images-lieux/108-visiter-zanzibar-tanzanie.jpg') ;
      background-position:center center;
      border-bottom:1px solid #ccc;
  }
@@ -248,7 +248,7 @@
  
  .coverphotomaroc{
    height:160px;
-   background:url('./merzougamoroccoacceuil.jpg') ;
+   background:url('https://maroc-bivouac.com/wp-content/uploads/2020/01/SLIDE-1.jpg') ;
      background-position:center center;
      border-bottom:1px solid #ccc;
  }
@@ -297,7 +297,7 @@
  
  .coverphotosenegal{
    height:160px;
-   background:url('./rue\ gorée.webp') ;
+   background:url('https://www.les-covoyageurs.com/ressources/images-lieux/1326-visiter-l-ile-de-goree-senegal.jpg') ;
      background-position:center center;
      border-bottom:1px solid #ccc;
  }
@@ -305,7 +305,7 @@
  
  .coverphotokenya{
    height:160px;
-   background:url('./kanyaacceuil.jpg') ;
+   background:url('https://whiteplainsafaris.com/images/masai-mara-reserve-banner.jpg') ;
      background-position:center center;
      border-bottom:1px solid #ccc;
  }
@@ -313,7 +313,7 @@
  
  .coverphotoseychelles{
    height:160px;
-   background:url('./seychelles1.jpg') ;
+   background:url('https://www.abercrombiekent.co.uk/-/media/abercrombieandkent/images/page-header-images/indian-ocean/seychelles/la-digue/la-digue_0004_seychelles-granite-rocks.jpeg?w=1920&h=940') ;
      background-position:center center;
      border-bottom:1px solid #ccc;
  }

@@ -3,7 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Parisienne&family=Poppins:wght@200;400&display=swap');
 
 
-
 .logonom{
   color: white;
   margin-top: 1%;
@@ -22,7 +21,7 @@
  text-decoration: none;
 }
 #entetedespages{
-  background:coral;
+  background: rgba(128, 128, 128, 0.82);
   height: 100px;
   width: 100%;
   position: fixed;
@@ -85,7 +84,7 @@ position: fixed;
   font-size:1em
 }
 #menuderoulantesaufacceuil li:hover {
-   background:coral;
+   background:grey
 }
 #menuderoulantesaufacceuil li li:hover {
    background: #999;
@@ -98,7 +97,6 @@ position: fixed;
   max-height: 15em;
 }
 
-
 img{
     width: 440px;
     height: 300px;
@@ -109,16 +107,26 @@ img{
     margin: 0;
     padding: 0;
    }
+   body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+   }
    
-   
-   
+   header {
+    height: 100px;
+    background:rgb(17, 100, 93);
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+   }
    
    .baniere {
     width: 100%;
     height: 18cm;
     position: fixed;
     top: 100px;
-    background-image: url(https://whiteplainsafaris.com/images/masai-mara-reserve-banner.jpg);
+    background-image: url(https://www.abercrombiekent.co.uk/-/media/abercrombieandkent/images/page-header-images/indian-ocean/seychelles/la-digue/la-digue_0004_seychelles-granite-rocks.jpeg?w=1920&h=940);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -130,32 +138,25 @@ img{
   color: white;
   padding-top: 215px;
    }
-   .baniere h3{
-    color: white;
-    margin-left: 710px;
-   }
-  .demipage1 .carte h2{
-    font-family: 'Parisienne',cursive;
-    font-size: xx-large;
-  }
-   .contenu {
-    width: 100%;
-    position: relative;
-    top: 1000px;
-    height: 4900px;
-    background-color: rgb(236, 216, 195);
-
-   }
-   .texte1,.photos{
-padding-top: 50px;
-   }   
    .photosrondes {
     width:250px;
     clip-path: circle();
     
  }
   
-   .imggauche{
+   .contenu {
+    width: 100%;
+    position: relative;
+    top: 1000px;
+    height: 5050px;
+    background-color:  rgb(243, 235, 226);
+
+   }
+   .texte1,.photos{
+padding-top: 50px;
+   }   
+  
+    .imggauche{
     padding-top: 100px;
   }
   
@@ -182,30 +183,17 @@ padding-top: 50px;
   .soustitres2{
     font-family: 'Bitter', serif;
     font-size: large;
-    color:  rgb(17, 100, 93);
-    padding-left:30px;
+    color: rgb(17, 100, 93);
+    padding-left:10px;
     padding-bottom: 20px;
     padding-top: 30px;
     text-align: normal;
   }
-   .demipage1{
-    background-color: coral;
-    height: 600px;
+  .demipage1{
+    background: url(https://www.abercrombiekent.co.uk/-/media/abercrombieandkent/images/page-header-images/indian-ocean/seychelles/la-digue/la-digue_0004_seychelles-granite-rocks.jpeg?w=1920&h=940);
+    height: 18cm;
     display: flex;
     background-size: cover;
-  }
-  .carte{
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-left: 50px;
-    width: 500px;
-  }
-  .video{
-    margin-right: 0;
-  }
-  iframe{
-    height: 600px;
-    width: 1000px;
   }
   .demipage{
     display: flex;
@@ -227,13 +215,15 @@ padding-top: 50px;
   }
   .colonne{
     grid-template-columns: repeat();
-  padding-top: 40px;
+  padding-top: 80px;
   margin: auto;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 
   }
- 
-  
+  .p2{
+  height: 500px;
+  width: 300px;
+  }
   .images{
     margin: auto;
     
@@ -246,26 +236,15 @@ padding-top: 50px;
     padding-left: 1cm;
     padding-right: 1cm;
     font-family: 'Poppins', sans-serif;
-  } 
-  .carte p,h2{
-    margin: auto;
-    padding-left: 1cm;
-    padding-right: 1cm;
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    margin-top: 10%;
   }
+
+
+
+
+
   
-  
-   .carte img{
-    width: 40%;
-    height: 20%;
-   }
-
-
-
-   .pieddepage1{
-    background:rgb(159, 108, 13);
+  .pieddepage1{
+    background-color: antiquewhite;
    
     height: 300px;
     

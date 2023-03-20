@@ -121,7 +121,7 @@ img{
     height: 18cm;
     position: fixed;
     top: 100px;
-    background-image: url(./dromadaire2.jpg);
+    background-image: url(https://maroc-bivouac.com/wp-content/uploads/2020/01/SLIDE-1.jpg);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -178,7 +178,7 @@ padding-top: 50px;
     text-align: normal;
   }
   .demipage1{
-    background: url(./sandboard.jpg);
+    background: url(https://maroc-bivouac.com/wp-content/uploads/2020/01/SLIDE-1.jpg);
     height: 18cm;
     display: flex;
     background-size: cover;

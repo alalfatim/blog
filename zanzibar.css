@@ -3,13 +3,13 @@
  @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Parisienne&display=swap');
  @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Parisienne&family=Poppins:wght@200;400&display=swap');
  
- 
+
  .logonom{
   color: white;
   margin-top: 1%;
-  margin-left: -80%;
+  margin-left: 5%;
   font-size: 25px;
-  top: 0; 
+ top: 0; 
 }
 .logonom a:hover{
  color: #fff;
@@ -21,10 +21,8 @@
  color: #fff;
  text-decoration: none;
 }
-
-
 #entetedespages{
-  background: rgb(198, 96, 96);
+  background:rgb(82, 169, 156);
   height: 100px;
   width: 100%;
   position: fixed;
@@ -42,7 +40,7 @@
   width: 110px;
  margin-left: 90%;
  margin-top: 1.5%;
-
+position: fixed;
 }
 #menuderoulantesaufacceuil ul {
   padding:0;
@@ -87,7 +85,7 @@
   font-size:1em
 }
 #menuderoulantesaufacceuil li:hover {
-   background:rgb(198, 96, 96);
+   background: rgb(82, 169, 156);
 }
 #menuderoulantesaufacceuil li li:hover {
    background: #999;
@@ -100,6 +98,7 @@
   max-height: 15em;
 }
 
+
   * {
     margin: 0;
     padding: 0;
@@ -108,7 +107,7 @@
   background-color: rgba(243, 235, 226, 0.881);
  }
  .fondtitre{
-    background:url(https://www.les-covoyageurs.com/ressources/images-lieux/1326-visiter-l-ile-de-goree-senegal.jpg) ;
+    background:url(https://www.les-covoyageurs.com/ressources/images-lieux/108-visiter-zanzibar-tanzanie.jpg) ;
     opacity: 0.8;
    height: 500px;
     background-size: cover; 
@@ -126,11 +125,15 @@
 .imggauche{
   padding-top: 100px;
 }
+.sticker{
+  padding-top: 100px;
+  width: 30%;
+  height: 20%;
+}
 
 .textedroite{
   display: block;
   padding-right: 2cm;
-  padding-top: 40px;
 }
 .textegauche{
   display: block;
@@ -153,14 +156,14 @@ width: 1000px;
 .soustitres2{
   font-family: 'Bitter', serif;
   font-size: large;
-  color: rgb(198, 96, 96);
+  color: darkblue;
   margin-left:1cm;
   padding-bottom: 20px;
   padding-top: 30px;
   text-align: normal;
 }
 .demipage1{
-  background: url(https://www.les-covoyageurs.com/ressources/images-lieux/1326-visiter-l-ile-de-goree-senegal.jpg);
+  background: url(https://www.les-covoyageurs.com/ressources/images-lieux/108-visiter-zanzibar-tanzanie.jpg);
   height: 18cm;
   display: flex;
   background-size: cover;
@@ -177,26 +180,17 @@ width: 1000px;
  height: 6cm;
  padding-top: 2cm;
 }
+.photo3{
+  height: 500px;
+  width: 600px;
+}
 .photo2{
   width: 6cm;
   height: 6cm;
 }
 .colonne{
   grid-template-columns: repeat();
-padding-top: 10px;
-padding-left: 200px;
-}
-.colonne1{
-  grid-template-columns: repeat();
-  padding-top: 40px;
-  margin: auto;
-  padding-bottom: 40px;
-}
-.photosrondes {
-  width:300px;
-  clip-path: circle(); 
-  margin-bottom: 20px; 
-
+padding-top: 4cm;
 }
 .p2{
 height: 500px;
@@ -208,8 +202,7 @@ width: 300px;
 .image{
   width: 800px;
     height: 450px;
- padding-left:800px;
-}
+ padding-left:800px;}
 p{
   padding-left: 1cm;
   padding-right: 1cm;
@@ -273,14 +266,7 @@ p{
     -webkit-transform: translateX(-1600px);
             transform: translateX(-1600px);
   }
-  #img4:target .photosdéroulantes {
-    -webkit-transform: translateX(-2400px);
-            transform: translateX(-2400px);
-  }
-  #img5:target .photosdéroulantes {
-    -webkit-transform: translateX(-3200px);
-            transform: translateX(-3200px);
-  }
+ 
 
   .demipage3{
     padding:auto;
@@ -294,13 +280,18 @@ padding-left: 12.5%;}
 
 
 
+
+
+
+
 .pieddepage{
-  background: rgb(198, 96, 96);
+  background:rgb(82, 169, 156);
   margin-left: auto;
   height: 300px;
-
+  
 }
-.logonom1{
+  
+ .logonom1{
   color: black;
   margin-top: 5%;
   margin-left: 80%;
@@ -309,16 +300,17 @@ padding-left: 12.5%;}
  
 }
 .logonom1 a:hover{
-  color: black;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
- }
- .logonom1 a{
-  color: goldenrod;
-  text-decoration: none;
- }
- .contact1{
+ color: black;
+ border: none;
+ cursor: pointer;
+ text-decoration: none;
+}
+.logonom1 a{
+ color: goldenrod;
+ text-decoration: none;
+}
+
+.contact1{
   margin-top: -8%;
   margin-left: 2%;
 }
